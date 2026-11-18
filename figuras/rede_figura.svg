@@ -1,0 +1,331 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1014.7 -922.8 2147.9 1839.9" width="2147.9" height="1839.9" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="sim-t sim-d">
+<title id="sim-t">Análise de similitude dos resumos</title><desc id="sim-d">Grafo de similitude com 76 palavras em 7 blocos, calculado sobre 50 resumos. Blocos: CIEEE 1999 (Florianópolis), Carmen Batanero, IASE; GT-12/SBEM, Suzi Samá Pinto, Irene Maurício Cazorla; Celi Espasandin Lopes, Universidade de Granada, Ensino em Re-Vista; Comitê de Educação do ISI, ICOTS-1 (Sheffield, 1982), ISI; International Study Grou…, SERJ, SERN; Cileda de Queiroz e Silv…, PUC-SP, Sandra Magina.</desc>
+<rect x="-1014.7" y="-922.8" width="2147.9" height="1839.9" fill="#FFFFFF"/>
+<g class="sim-halos">
+<g opacity="0.15"><polygon points="-696.8,-154.3 -574.9,-265.3 -514.8,-265.3 -219.7,-205.3 -97.8,-129.4 35.4,-16.7 35.4,-0.3 -203.1,202.6 -438.8,202.6 -696.8,-135.6" fill="#2F2BFF" stroke="#2F2BFF" stroke-width="40" stroke-linejoin="round"/></g>
+<g opacity="0.15"><polygon points="-97.8,600.5 -63.9,473.2 -23.3,418.4 71.8,385.4 301.8,385.4 384.6,402.6 466.7,423.2 466.7,441.9 434.1,618.4 1.3,619.1 -97.8,619.1" fill="#00A344" stroke="#00A344" stroke-width="40" stroke-linejoin="round"/></g>
+<g opacity="0.15"><polygon points="111.6,-92.1 283.1,-222.3 444.2,-339.1 649.0,-339.1 870.6,-312.3 880.9,-100.2 880.9,-80.5 714.0,-56.9 416.9,-40.4 176.7,-40.4 111.6,-73.5" fill="#6A3BFF" stroke="#6A3BFF" stroke-width="40" stroke-linejoin="round"/></g>
+<g opacity="0.15"><polygon points="-979.7,-854.3 -803.0,-854.3 -482.4,-671.6 -464.9,-597.9 -464.9,-575.0 -548.7,-531.2 -677.0,-490.9 -735.1,-490.9 -803.9,-549.6 -979.7,-837.9" fill="#B45309" stroke="#B45309" stroke-width="40" stroke-linejoin="round"/></g>
+<g opacity="0.15"><polygon points="-307.4,-571.8 -285.6,-716.5 -193.3,-897.8 -65.4,-897.8 211.9,-758.4 211.9,-736.0 -139.4,-553.2 -307.4,-553.2" fill="#0B1F66" stroke="#0B1F66" stroke-width="40" stroke-linejoin="round"/></g>
+<g opacity="0.15"><polygon points="-602.8,511.6 -520.4,511.6 -195.2,554.4 -195.2,577.2 -280.2,788.2 -342.8,788.2 -602.8,528.0" fill="#0E7490" stroke="#0E7490" stroke-width="40" stroke-linejoin="round"/></g>
+<g opacity="0.15"><polygon points="540.0,444.8 628.6,408.6 731.6,371.1 953.5,371.1 1098.2,451.8 1098.2,471.4 917.4,562.9 815.0,562.9 670.3,514.5 540.0,464.4" fill="#8B5CF6" stroke="#8B5CF6" stroke-width="40" stroke-linejoin="round"/></g>
+</g>
+<g class="sim-extras" stroke-linecap="round">
+<line x1="155.7" y1="608.6" x2="128.7" y2="483.8" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-474.5" y1="630.1" x2="82.1" y2="396.4" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-277.4" y1="-605.9" x2="-305.3" y2="-60.3" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-277.4" y1="-605.9" x2="-234.4" y2="-684.3" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-185.1" y1="-838.9" x2="-194.5" y2="-741.8" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="119.0" y1="-82.8" x2="227.9" y2="-107.9" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-335.4" y1="778.8" x2="-411.2" y2="684.8" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-74.8" y1="-721.2" x2="-448.0" y2="-2.2" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-90.4" y1="609.8" x2="21.4" y2="513.5" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-411.2" y1="684.8" x2="-434.7" y2="592.1" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="804.9" y1="461.6" x2="679.6" y2="504.0" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-434.7" y1="592.1" x2="-532.4" y2="565.8" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-194.5" y1="-741.8" x2="227.9" y2="-107.9" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="548.2" y1="454.6" x2="679.6" y2="504.0" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="21.4" y1="513.5" x2="114.9" y2="562.2" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="21.4" y1="513.5" x2="-55.6" y2="483.0" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="128.7" y1="483.8" x2="-465.0" y2="-93.8" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="128.7" y1="483.8" x2="-532.4" y2="565.8" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="128.7" y1="483.8" x2="185.6" y2="-50.6" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-185.0" y1="-888.0" x2="510.1" y2="-147.5" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="483.1" y1="-114.2" x2="-522.9" y2="27.1" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-522.9" y1="27.1" x2="-562.3" y2="-21.1" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="373.5" y1="-175.1" x2="291.3" y2="-212.5" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="373.5" y1="-175.1" x2="-448.0" y2="-2.2" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="373.5" y1="-175.1" x2="-435.6" y2="101.3" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="373.5" y1="-175.1" x2="510.1" y2="-147.5" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="373.5" y1="-175.1" x2="429.4" y2="-66.2" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="373.5" y1="-175.1" x2="465.8" y2="-263.7" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="373.5" y1="-175.1" x2="227.9" y2="-107.9" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="291.3" y1="-212.5" x2="-448.0" y2="-2.2" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-448.0" y1="-2.2" x2="-435.6" y2="101.3" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-448.0" y1="-2.2" x2="114.9" y2="562.2" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-448.0" y1="-2.2" x2="510.1" y2="-147.5" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-448.0" y1="-2.2" x2="-430.5" y2="192.7" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-448.0" y1="-2.2" x2="-113.9" y2="-747.2" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-448.0" y1="-2.2" x2="-377.2" y2="-31.8" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-448.0" y1="-2.2" x2="-234.4" y2="-684.3" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-448.0" y1="-2.2" x2="465.8" y2="-263.7" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-448.0" y1="-2.2" x2="227.9" y2="-107.9" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="822.5" y1="553.6" x2="679.6" y2="504.0" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-451.3" y1="-195.1" x2="-305.3" y2="-60.3" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="82.1" y1="396.4" x2="-465.0" y2="-93.8" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="82.1" y1="396.4" x2="-15.9" y2="427.8" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="82.1" y1="396.4" x2="465.8" y2="-263.7" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="601.9" y1="-90.4" x2="510.1" y2="-147.5" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="601.9" y1="-90.4" x2="679.6" y2="504.0" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-558.9" y1="-169.4" x2="-565.5" y2="-254.8" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-866.4" y1="-741.8" x2="-810.9" y2="-630.7" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-371.7" y1="-170.8" x2="-810.9" y2="-630.7" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-465.0" y1="-93.8" x2="-435.6" y2="101.3" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-465.0" y1="-93.8" x2="-305.3" y2="-60.3" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.60" stroke-dasharray="4 3"/>
+<line x1="-607.2" y1="-62.3" x2="-532.4" y2="565.8" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-810.9" y1="-630.7" x2="-734.0" y2="-586.4" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-810.9" y1="-630.7" x2="-305.3" y2="-60.3" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-810.9" y1="-630.7" x2="-740.1" y2="-660.4" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-113.9" y1="-747.2" x2="-740.1" y2="-660.4" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-430.5" y1="192.7" x2="-435.6" y2="101.3" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="202.5" y1="511.7" x2="177.4" y2="422.2" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-689.3" y1="-144.9" x2="-565.5" y2="-254.8" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-234.4" y1="-684.3" x2="-305.3" y2="-60.3" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-565.5" y1="-254.8" x2="-500.0" y2="-220.1" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-740.1" y1="-660.4" x2="-500.0" y2="-220.1" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-727.7" y1="-500.2" x2="-305.3" y2="-60.3" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-305.3" y1="-60.3" x2="-734.0" y2="-586.4" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+<line x1="-305.3" y1="-60.3" x2="-377.2" y2="-31.8" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.60" stroke-dasharray="4 3"/>
+<line x1="-532.4" y1="565.8" x2="114.9" y2="562.2" stroke="#94A3B8" stroke-opacity="0.6" stroke-width="1.10" stroke-dasharray="4 3"/>
+</g>
+<g class="sim-arvore" stroke-linecap="round">
+<line x1="636.8" y1="418.4" x2="739.1" y2="380.5" stroke="#8B5CF6" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="636.8" y1="418.4" x2="548.2" y2="454.6" stroke="#8B5CF6" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="636.8" y1="418.4" x2="679.6" y2="504.0" stroke="#8B5CF6" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-299.9" y1="-562.5" x2="-55.6" y2="483.0" stroke="#64748B" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-299.9" y1="-562.5" x2="-277.4" y2="-605.9" stroke="#0B1F66" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="155.7" y1="608.6" x2="114.9" y2="562.2" stroke="#00A344" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="155.7" y1="608.6" x2="185.6" y2="-50.6" stroke="#64748B" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-474.5" y1="630.1" x2="-532.4" y2="565.8" stroke="#0E7490" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="-474.5" y1="630.1" x2="-434.7" y2="592.1" stroke="#0E7490" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-474.5" y1="630.1" x2="-411.2" y2="684.8" stroke="#0E7490" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="30.3" y1="456.2" x2="-55.6" y2="483.0" stroke="#00A344" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="30.3" y1="456.2" x2="128.7" y2="483.8" stroke="#00A344" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-185.1" y1="-838.9" x2="-185.0" y2="-888.0" stroke="#0B1F66" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-185.1" y1="-838.9" x2="-305.3" y2="-60.3" stroke="#64748B" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="119.0" y1="-82.8" x2="-448.0" y2="-2.2" stroke="#64748B" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="544.9" y1="-237.0" x2="616.1" y2="-260.4" stroke="#6A3BFF" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="544.9" y1="-237.0" x2="584.2" y2="-303.0" stroke="#6A3BFF" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="544.9" y1="-237.0" x2="510.1" y2="-147.5" stroke="#6A3BFF" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="544.9" y1="-237.0" x2="465.8" y2="-263.7" stroke="#6A3BFF" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="584.2" y1="-303.0" x2="202.5" y2="511.7" stroke="#64748B" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-926.8" y1="-800.0" x2="-974.2" y2="-846.1" stroke="#B45309" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-926.8" y1="-800.0" x2="-866.4" y2="-741.8" stroke="#B45309" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-335.4" y1="778.8" x2="82.1" y2="396.4" stroke="#64748B" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-799.0" y1="-717.2" x2="-740.1" y2="-660.4" stroke="#B45309" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-799.0" y1="-717.2" x2="-866.4" y2="-741.8" stroke="#B45309" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="739.1" y1="380.5" x2="804.9" y2="461.6" stroke="#8B5CF6" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="337.4" y1="410.8" x2="252.2" y2="432.6" stroke="#00A344" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-74.8" y1="-721.2" x2="-113.9" y2="-747.2" stroke="#0B1F66" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="-90.4" y1="609.8" x2="-448.0" y2="-2.2" stroke="#64748B" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="804.9" y1="461.6" x2="822.5" y2="553.6" stroke="#8B5CF6" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-191.5" y1="-8.5" x2="-305.3" y2="-60.3" stroke="#2F2BFF" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-194.5" y1="-741.8" x2="-113.9" y2="-747.2" stroke="#0B1F66" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="-194.5" y1="-741.8" x2="-234.4" y2="-684.3" stroke="#0B1F66" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="548.2" y1="454.6" x2="128.7" y2="483.8" stroke="#64748B" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="21.4" y1="513.5" x2="291.3" y2="-212.5" stroke="#64748B" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="21.4" y1="513.5" x2="128.7" y2="483.8" stroke="#00A344" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="21.4" y1="513.5" x2="-15.9" y2="427.8" stroke="#00A344" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="128.7" y1="483.8" x2="601.9" y2="-90.4" stroke="#64748B" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="128.7" y1="483.8" x2="373.5" y2="-175.1" stroke="#64748B" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="128.7" y1="483.8" x2="-435.6" y2="101.3" stroke="#64748B" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="128.7" y1="483.8" x2="114.9" y2="562.2" stroke="#00A344" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="128.7" y1="483.8" x2="252.2" y2="432.6" stroke="#00A344" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="128.7" y1="483.8" x2="82.1" y2="396.4" stroke="#00A344" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="128.7" y1="483.8" x2="177.4" y2="422.2" stroke="#00A344" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="128.7" y1="483.8" x2="202.5" y2="511.7" stroke="#00A344" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-185.0" y1="-888.0" x2="-430.5" y2="192.7" stroke="#64748B" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="483.1" y1="-114.2" x2="510.1" y2="-147.5" stroke="#6A3BFF" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="483.1" y1="-114.2" x2="429.4" y2="-66.2" stroke="#6A3BFF" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-522.9" y1="27.1" x2="-465.0" y2="-93.8" stroke="#2F2BFF" stroke-opacity="0.8" stroke-width="3.97"/>
+<line x1="373.5" y1="-175.1" x2="-465.0" y2="-93.8" stroke="#64748B" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="449.7" y1="-330.9" x2="465.8" y2="-263.7" stroke="#6A3BFF" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-448.0" y1="-2.2" x2="-465.0" y2="-93.8" stroke="#2F2BFF" stroke-opacity="0.8" stroke-width="5.00"/>
+<line x1="-448.0" y1="-2.2" x2="-532.4" y2="565.8" stroke="#64748B" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="-448.0" y1="-2.2" x2="-305.3" y2="-60.3" stroke="#2F2BFF" stroke-opacity="0.8" stroke-width="3.97"/>
+<line x1="-448.0" y1="-2.2" x2="-607.2" y2="-62.3" stroke="#2F2BFF" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="185.6" y1="-50.6" x2="227.9" y2="-107.9" stroke="#6A3BFF" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="-451.3" y1="-195.1" x2="-465.0" y2="-93.8" stroke="#2F2BFF" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-451.3" y1="-195.1" x2="-565.5" y2="-254.8" stroke="#2F2BFF" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="-795.0" y1="-559.8" x2="-734.0" y2="-586.4" stroke="#B45309" stroke-opacity="0.8" stroke-width="3.97"/>
+<line x1="-795.0" y1="-559.8" x2="-810.9" y2="-630.7" stroke="#B45309" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-562.3" y1="-21.1" x2="-465.0" y2="-93.8" stroke="#2F2BFF" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="-558.9" y1="-169.4" x2="-465.0" y2="-93.8" stroke="#2F2BFF" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="-558.9" y1="-169.4" x2="-740.1" y2="-660.4" stroke="#64748B" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-371.7" y1="-170.8" x2="-465.0" y2="-93.8" stroke="#2F2BFF" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="-465.0" y1="-93.8" x2="-377.2" y2="-31.8" stroke="#2F2BFF" stroke-opacity="0.8" stroke-width="3.97"/>
+<line x1="-465.0" y1="-93.8" x2="-500.0" y2="-220.1" stroke="#2F2BFF" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-280.1" y1="-708.3" x2="-234.4" y2="-684.3" stroke="#0B1F66" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-607.2" y1="-62.3" x2="-689.3" y2="-144.9" stroke="#2F2BFF" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-186.4" y1="-121.2" x2="-305.3" y2="-60.3" stroke="#2F2BFF" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-679.6" y1="-696.4" x2="-740.1" y2="-660.4" stroke="#B45309" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-597.3" y1="519.8" x2="-532.4" y2="565.8" stroke="#0E7490" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-113.9" y1="-747.2" x2="-305.3" y2="-60.3" stroke="#64748B" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="-740.1" y1="-660.4" x2="-734.0" y2="-586.4" stroke="#B45309" stroke-opacity="0.8" stroke-width="2.95"/>
+<line x1="-727.7" y1="-500.2" x2="-734.0" y2="-586.4" stroke="#B45309" stroke-opacity="0.8" stroke-width="1.92"/>
+<line x1="-734.0" y1="-586.4" x2="-670.2" y2="-539.4" stroke="#B45309" stroke-opacity="0.8" stroke-width="1.92"/>
+</g>
+<g class="sim-nos">
+<circle cx="636.8" cy="418.4" r="7.2" fill="#8B5CF6" stroke="#FFFFFF" stroke-width="1.5"><title>GREF: 3 resumos</title></circle>
+<circle cx="-299.9" cy="-562.5" r="6.4" fill="#0B1F66" stroke="#FFFFFF" stroke-width="1.5"><title>Mauren Porciúncula: 2 resumos</title></circle>
+<circle cx="155.7" cy="608.6" r="7.2" fill="#00A344" stroke="#FFFFFF" stroke-width="1.5"><title>I Seminário Hispano-Brasileiro d…: 3 resumos</title></circle>
+<circle cx="-474.5" cy="630.1" r="8.4" fill="#0E7490" stroke="#FFFFFF" stroke-width="1.5"><title>PUC-SP: 4 resumos</title></circle>
+<circle cx="30.3" cy="456.2" r="6.4" fill="#00A344" stroke="#FFFFFF" stroke-width="1.5"><title>Disciplina nacional de letrament…: 2 resumos</title></circle>
+<circle cx="-277.4" cy="-605.9" r="7.2" fill="#0B1F66" stroke="#FFFFFF" stroke-width="1.5"><title>Iddo Gal: 3 resumos</title></circle>
+<circle cx="-185.1" cy="-838.9" r="7.2" fill="#0B1F66" stroke="#FFFFFF" stroke-width="1.5"><title>Hipótesis Alternativa: 3 resumos</title></circle>
+<circle cx="119.0" cy="-82.8" r="6.4" fill="#6A3BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Antonio Estepa: 2 resumos</title></circle>
+<circle cx="544.9" cy="-237.0" r="7.9" fill="#6A3BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Keli Cristina Conti: 4 resumos</title></circle>
+<circle cx="584.2" cy="-303.0" r="6.4" fill="#6A3BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Educação Matemática em Revista –…: 2 resumos</title></circle>
+<circle cx="-926.8" cy="-800.0" r="6.4" fill="#B45309" stroke="#FFFFFF" stroke-width="1.5"><title>Teaching Statistics: 2 resumos</title></circle>
+<circle cx="-335.4" cy="778.8" r="6.4" fill="#0E7490" stroke="#FFFFFF" stroke-width="1.5"><title>UESC: 2 resumos</title></circle>
+<circle cx="-799.0" cy="-717.2" r="6.4" fill="#B45309" stroke="#FFFFFF" stroke-width="1.5"><title>Vic Barnett: 2 resumos</title></circle>
+<circle cx="739.1" cy="380.5" r="6.4" fill="#8B5CF6" stroke="#FFFFFF" stroke-width="1.5"><title>1º ENCEPAI (UFPE, 2016): 2 resumos</title></circle>
+<circle cx="337.4" cy="410.8" r="4.5" fill="#00A344" stroke="#FFFFFF" stroke-width="1.5"><title>UFPA: 1 resumo</title></circle>
+<circle cx="-74.8" cy="-721.2" r="7.2" fill="#0B1F66" stroke="#FFFFFF" stroke-width="1.5"><title>Joan Garfield: 2 resumos</title></circle>
+<circle cx="-90.4" cy="609.8" r="6.4" fill="#00A344" stroke="#FFFFFF" stroke-width="1.5"><title>REVEMAT: 2 resumos</title></circle>
+<circle cx="-411.2" cy="684.8" r="7.2" fill="#0E7490" stroke="#FFFFFF" stroke-width="1.5"><title>Sandra Magina: 3 resumos</title></circle>
+<circle cx="804.9" cy="461.6" r="7.2" fill="#8B5CF6" stroke="#FFFFFF" stroke-width="1.5"><title>Grupo de Estudos em Raciocínio C…: 3 resumos</title></circle>
+<circle cx="-434.7" cy="592.1" r="7.2" fill="#0E7490" stroke="#FFFFFF" stroke-width="1.5"><title>PEA-MAT: 3 resumos</title></circle>
+<circle cx="-191.5" cy="-8.5" r="4.5" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Probability and Statistics Educa…: 1 resumo</title></circle>
+<circle cx="-194.5" cy="-741.8" r="8.8" fill="#0B1F66" stroke="#FFFFFF" stroke-width="1.5"><title>SERN: 4 resumos</title></circle>
+<circle cx="548.2" cy="454.6" r="7.2" fill="#8B5CF6" stroke="#FFFFFF" stroke-width="1.5"><title>Gilda Lisbôa Guimarães: 3 resumos</title></circle>
+<circle cx="21.4" cy="513.5" r="9.2" fill="#00A344" stroke="#FFFFFF" stroke-width="1.5"><title>Suzi Samá Pinto: 6 resumos</title></circle>
+<circle cx="128.7" cy="483.8" r="13.0" fill="#00A344" stroke="#FFFFFF" stroke-width="1.5"><title>GT-12/SBEM: 15 resumos</title></circle>
+<circle cx="-185.0" cy="-888.0" r="7.2" fill="#0B1F66" stroke="#FFFFFF" stroke-width="1.5"><title>Audy Salcedo: 3 resumos</title></circle>
+<circle cx="-55.6" cy="483.0" r="7.2" fill="#00A344" stroke="#FFFFFF" stroke-width="1.5"><title>FURG: 3 resumos</title></circle>
+<circle cx="483.1" cy="-114.2" r="7.2" fill="#6A3BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Regina Célia Grando: 3 resumos</title></circle>
+<circle cx="-522.9" cy="27.1" r="8.4" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>UFSC: 3 resumos</title></circle>
+<circle cx="616.1" cy="-260.4" r="4.5" fill="#6A3BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Educação Matemática em Foco: 1 resumo</title></circle>
+<circle cx="373.5" cy="-175.1" r="10.6" fill="#6A3BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Celi Espasandin Lopes: 9 resumos</title></circle>
+<circle cx="252.2" cy="432.6" r="6.4" fill="#00A344" stroke="#FFFFFF" stroke-width="1.5"><title>III Fórum do GT12 (Belém): 2 resumos</title></circle>
+<circle cx="291.3" cy="-212.5" r="7.2" fill="#6A3BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Caminhos da Educação Matemática …: 3 resumos</title></circle>
+<circle cx="449.7" cy="-330.9" r="4.5" fill="#6A3BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Rodrigo Medeiros dos Santos: 1 resumo</title></circle>
+<circle cx="-448.0" cy="-2.2" r="13.8" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Carmen Batanero: 18 resumos</title></circle>
+<circle cx="822.5" cy="553.6" r="6.4" fill="#8B5CF6" stroke="#FFFFFF" stroke-width="1.5"><title>Rute Borba: 2 resumos</title></circle>
+<circle cx="185.6" cy="-50.6" r="7.9" fill="#6A3BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Grupo FQM-126 (Granada): 3 resumos</title></circle>
+<circle cx="-451.3" cy="-195.1" r="7.9" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Lisbeth Kaiserlian Cordani: 3 resumos</title></circle>
+<circle cx="-795.0" cy="-559.8" r="7.9" fill="#B45309" stroke="#FFFFFF" stroke-width="1.5"><title>UNESCO: 2 resumos</title></circle>
+<circle cx="82.1" cy="396.4" r="9.2" fill="#00A344" stroke="#FFFFFF" stroke-width="1.5"><title>Irene Maurício Cazorla: 6 resumos</title></circle>
+<circle cx="-562.3" cy="-21.1" r="7.2" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>PRESTA: 2 resumos</title></circle>
+<circle cx="601.9" cy="-90.4" r="7.2" fill="#6A3BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Carlos Eduardo Ferreira Monteiro: 3 resumos</title></circle>
+<circle cx="-558.9" cy="-169.4" r="7.9" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Clóvis Peres: 3 resumos</title></circle>
+<circle cx="-866.4" cy="-741.8" r="7.2" fill="#B45309" stroke="#FFFFFF" stroke-width="1.5"><title>TOTSAS: 3 resumos</title></circle>
+<circle cx="-371.7" cy="-170.8" r="7.2" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>IASI: 2 resumos</title></circle>
+<circle cx="-465.0" cy="-93.8" r="14.0" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>CIEEE 1999 (Florianópolis): 13 resumos</title></circle>
+<circle cx="-280.1" cy="-708.3" r="4.5" fill="#0B1F66" stroke="#FFFFFF" stroke-width="1.5"><title>Maxine Pfannkuch: 1 resumo</title></circle>
+<circle cx="679.6" cy="504.0" r="8.4" fill="#8B5CF6" stroke="#FFFFFF" stroke-width="1.5"><title>UFPE: 5 resumos</title></circle>
+<circle cx="-607.2" cy="-62.3" r="7.2" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Zetetiké: 3 resumos</title></circle>
+<circle cx="-810.9" cy="-630.7" r="8.8" fill="#B45309" stroke="#FFFFFF" stroke-width="1.5"><title>ISI: 6 resumos</title></circle>
+<circle cx="510.1" cy="-147.5" r="8.8" fill="#6A3BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Ensino em Re-Vista: 6 resumos</title></circle>
+<circle cx="-186.4" cy="-121.2" r="4.5" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Mary Regier: 1 resumo</title></circle>
+<circle cx="-974.2" cy="-846.1" r="4.5" fill="#B45309" stroke="#FFFFFF" stroke-width="1.5"><title>Royal Statistical Society: 1 resumo</title></circle>
+<circle cx="-679.6" cy="-696.4" r="4.5" fill="#B45309" stroke="#FFFFFF" stroke-width="1.5"><title>Lennart Råde: 1 resumo</title></circle>
+<circle cx="-597.3" cy="519.8" r="4.5" fill="#0E7490" stroke="#FFFFFF" stroke-width="1.5"><title>ReBECEM: 1 resumo</title></circle>
+<circle cx="-113.9" cy="-747.2" r="9.6" fill="#0B1F66" stroke="#FFFFFF" stroke-width="1.5"><title>International Study Group for Re…: 5 resumos</title></circle>
+<circle cx="-430.5" cy="192.7" r="7.2" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>III CIBEM (Caracas, 1998): 3 resumos</title></circle>
+<circle cx="465.8" cy="-263.7" r="8.4" fill="#6A3BFF" stroke="#FFFFFF" stroke-width="1.5"><title>UNICAMP: 5 resumos</title></circle>
+<circle cx="-15.9" cy="427.8" r="6.4" fill="#00A344" stroke="#FFFFFF" stroke-width="1.5"><title>ReviSeM: 2 resumos</title></circle>
+<circle cx="202.5" cy="511.7" r="7.2" fill="#00A344" stroke="#FFFFFF" stroke-width="1.5"><title>VIII SIPEM (2021): 3 resumos</title></circle>
+<circle cx="-689.3" cy="-144.9" r="6.4" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Ailton Paulo de Oliveira Júnior: 2 resumos</title></circle>
+<circle cx="429.4" cy="-66.2" r="6.4" fill="#6A3BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Revista de Educação PUC-Campinas: 2 resumos</title></circle>
+<circle cx="227.9" cy="-107.9" r="8.8" fill="#6A3BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Universidade de Granada: 5 resumos</title></circle>
+<circle cx="-234.4" cy="-684.3" r="8.8" fill="#0B1F66" stroke="#FFFFFF" stroke-width="1.5"><title>SERJ: 5 resumos</title></circle>
+<circle cx="-565.5" cy="-254.8" r="8.4" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>USP: 4 resumos</title></circle>
+<circle cx="-740.1" cy="-660.4" r="9.6" fill="#B45309" stroke="#FFFFFF" stroke-width="1.5"><title>ICOTS-1 (Sheffield, 1982): 7 resumos</title></circle>
+<circle cx="-727.7" cy="-500.2" r="6.4" fill="#B45309" stroke="#FFFFFF" stroke-width="1.5"><title>ISLP: 2 resumos</title></circle>
+<circle cx="-305.3" cy="-60.3" r="12.5" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>IASE: 13 resumos</title></circle>
+<circle cx="-435.6" cy="101.3" r="8.4" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Dione Lucchesi de Carvalho: 5 resumos</title></circle>
+<circle cx="-532.4" cy="565.8" r="10.0" fill="#0E7490" stroke="#FFFFFF" stroke-width="1.5"><title>Cileda de Queiroz e Silva Coutinho: 7 resumos</title></circle>
+<circle cx="-500.0" cy="-220.1" r="7.2" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Pedro Morettin: 3 resumos</title></circle>
+<circle cx="-734.0" cy="-586.4" r="10.0" fill="#B45309" stroke="#FFFFFF" stroke-width="1.5"><title>Comitê de Educação do ISI: 6 resumos</title></circle>
+<circle cx="177.4" cy="422.2" r="7.2" fill="#00A344" stroke="#FFFFFF" stroke-width="1.5"><title>SBEM: 2 resumos</title></circle>
+<circle cx="114.9" cy="562.2" r="8.8" fill="#00A344" stroke="#FFFFFF" stroke-width="1.5"><title>Educação Matemática Pesquisa: 5 resumos</title></circle>
+<circle cx="-670.2" cy="-539.4" r="4.5" fill="#B45309" stroke="#FFFFFF" stroke-width="1.5"><title>P.C. Mahalanobis: 1 resumo</title></circle>
+<circle cx="-377.2" cy="-31.8" r="8.8" fill="#2F2BFF" stroke="#FFFFFF" stroke-width="1.5"><title>Maria Gabriella Ottaviani: 3 resumos</title></circle>
+</g><g class="sim-rotulos">
+<text class="rot" x="648.1" y="423.3" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">GREF</text>
+<text class="rot" x="-289.5" y="-557.8" font-size="13.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Mauren Porciúncula</text>
+<text class="rot" x="166.9" y="613.5" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">I Seminário Hispano-Brasileiro d…</text>
+<text class="rot" x="-462.1" y="635.4" font-size="15.2" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">PUC-SP</text>
+<text class="rot" x="40.8" y="460.9" font-size="13.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Disciplina nacional de letrament…</text>
+<text class="rot" x="-266.1" y="-601.0" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Iddo Gal</text>
+<text class="rot" x="-173.9" y="-834.0" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Hipótesis Alternativa</text>
+<text class="rot" x="129.4" y="-78.1" font-size="13.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Antonio Estepa</text>
+<text class="rot" x="556.7" y="-231.9" font-size="14.7" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Keli Cristina Conti</text>
+<text class="rot" x="594.6" y="-298.3" font-size="13.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Educação Matemática em Revista –…</text>
+<text class="rot" x="-916.3" y="-795.4" font-size="13.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Teaching Statistics</text>
+<text class="rot" x="-324.9" y="783.5" font-size="13.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">UESC</text>
+<text class="rot" x="-788.6" y="-712.5" font-size="13.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Vic Barnett</text>
+<text class="rot" x="749.5" y="385.1" font-size="13.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">1º ENCEPAI (UFPE, 2016)</text>
+<text class="rot" x="345.9" y="414.8" font-size="11.5" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">UFPA</text>
+<text class="rot" x="-63.5" y="-716.2" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Joan Garfield</text>
+<text class="rot" x="-80.0" y="614.5" font-size="13.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">REVEMAT</text>
+<text class="rot" x="-400.0" y="689.8" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Sandra Magina</text>
+<text class="rot" x="816.1" y="466.6" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Grupo de Estudos em Raciocínio C…</text>
+<text class="rot" x="-423.5" y="597.0" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">PEA-MAT</text>
+<text class="rot" x="-183.0" y="-4.5" font-size="11.5" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Probability and Statistics Educa…</text>
+<text class="rot" x="-181.7" y="-736.4" font-size="15.6" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">SERN</text>
+<text class="rot" x="559.5" y="459.5" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Gilda Lisbôa Guimarães</text>
+<text class="rot" x="34.6" y="519.1" font-size="16.0" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Suzi Samá Pinto</text>
+<text class="rot" x="145.7" y="490.7" font-size="19.5" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">GT-12/SBEM</text>
+<text class="rot" x="-173.8" y="-883.0" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Audy Salcedo</text>
+<text class="rot" x="-44.4" y="488.0" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">FURG</text>
+<text class="rot" x="494.3" y="-109.3" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Regina Célia Grando</text>
+<text class="rot" x="-510.5" y="32.4" font-size="15.2" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">UFSC</text>
+<text class="rot" x="624.6" y="-256.3" font-size="11.5" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Educação Matemática em Foco</text>
+<text class="rot" x="388.2" y="-169.0" font-size="17.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Celi Espasandin Lopes</text>
+<text class="rot" x="262.7" y="437.2" font-size="13.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">III Fórum do GT12 (Belém)</text>
+<text class="rot" x="302.6" y="-207.6" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Caminhos da Educação Matemática …</text>
+<text class="rot" x="458.2" y="-326.9" font-size="11.5" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Rodrigo Medeiros dos Santos</text>
+<text class="rot" x="-430.2" y="4.9" font-size="20.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Carmen Batanero</text>
+<text class="rot" x="832.9" y="558.3" font-size="13.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Rute Borba</text>
+<text class="rot" x="197.5" y="-45.4" font-size="14.7" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Grupo FQM-126 (Granada)</text>
+<text class="rot" x="-439.5" y="-190.0" font-size="14.7" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Lisbeth Kaiserlian Cordani</text>
+<text class="rot" x="-783.2" y="-554.7" font-size="14.7" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">UNESCO</text>
+<text class="rot" x="95.3" y="402.0" font-size="16.0" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Irene Maurício Cazorla</text>
+<text class="rot" x="-551.0" y="-16.2" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">PRESTA</text>
+<text class="rot" x="613.1" y="-85.4" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Carlos Eduardo Ferreira Monteiro</text>
+<text class="rot" x="-547.0" y="-164.3" font-size="14.7" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Clóvis Peres</text>
+<text class="rot" x="-855.1" y="-736.9" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">TOTSAS</text>
+<text class="rot" x="-360.5" y="-165.9" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">IASI</text>
+<text class="rot" x="-447.0" y="-86.6" font-size="20.5" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">CIEEE 1999 (Florianópolis)</text>
+<text class="rot" x="-271.6" y="-704.3" font-size="11.5" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Maxine Pfannkuch</text>
+<text class="rot" x="692.0" y="509.3" font-size="15.2" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">UFPE</text>
+<text class="rot" x="-595.9" y="-57.3" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Zetetiké</text>
+<text class="rot" x="-798.1" y="-625.3" font-size="15.6" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ISI</text>
+<text class="rot" x="522.9" y="-142.0" font-size="15.6" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Ensino em Re-Vista</text>
+<text class="rot" x="-177.9" y="-117.2" font-size="11.5" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Mary Regier</text>
+<text class="rot" x="-965.7" y="-842.1" font-size="11.5" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Royal Statistical Society</text>
+<text class="rot" x="-671.1" y="-692.4" font-size="11.5" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Lennart Råde</text>
+<text class="rot" x="-588.8" y="523.8" font-size="11.5" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ReBECEM</text>
+<text class="rot" x="-100.3" y="-741.5" font-size="16.4" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">International Study Group for Re…</text>
+<text class="rot" x="-419.3" y="197.7" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">III CIBEM (Caracas, 1998)</text>
+<text class="rot" x="478.2" y="-258.4" font-size="15.2" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">UNICAMP</text>
+<text class="rot" x="-5.5" y="432.4" font-size="13.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ReviSeM</text>
+<text class="rot" x="213.7" y="516.7" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">VIII SIPEM (2021)</text>
+<text class="rot" x="-678.9" y="-140.3" font-size="13.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Ailton Paulo de Oliveira Júnior</text>
+<text class="rot" x="439.8" y="-61.5" font-size="13.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Revista de Educação PUC-Campinas</text>
+<text class="rot" x="240.8" y="-102.4" font-size="15.6" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Universidade de Granada</text>
+<text class="rot" x="-221.5" y="-678.9" font-size="15.6" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">SERJ</text>
+<text class="rot" x="-553.2" y="-249.5" font-size="15.2" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">USP</text>
+<text class="rot" x="-726.5" y="-654.7" font-size="16.4" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ICOTS-1 (Sheffield, 1982)</text>
+<text class="rot" x="-717.2" y="-495.6" font-size="13.3" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ISLP</text>
+<text class="rot" x="-288.8" y="-53.6" font-size="19.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">IASE</text>
+<text class="rot" x="-423.3" y="106.6" font-size="15.2" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Dione Lucchesi de Carvalho</text>
+<text class="rot" x="-518.4" y="571.7" font-size="16.7" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Cileda de Queiroz e Silva Coutinho</text>
+<text class="rot" x="-488.8" y="-215.2" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Pedro Morettin</text>
+<text class="rot" x="-720.1" y="-580.6" font-size="16.7" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Comitê de Educação do ISI</text>
+<text class="rot" x="188.6" y="427.2" font-size="14.1" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">SBEM</text>
+<text class="rot" x="127.8" y="567.7" font-size="15.6" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Educação Matemática Pesquisa</text>
+<text class="rot" x="-661.7" y="-535.4" font-size="11.5" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">P.C. Mahalanobis</text>
+<text class="rot" x="-364.3" y="-26.3" font-size="15.6" font-weight="500" fill="#14204A" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" stroke-linejoin="round">Maria Gabriella Ottaviani</text>
+</g>
+<g class="sim-legenda">
+<circle cx="-995.7" cy="833.2" r="5" fill="#2F2BFF"/>
+<text class="leg" x="-985.7" y="837.2" font-size="12" fill="#14204A">0. CIEEE 1999 (Florianópolis), Carmen Batanero, IASE (17)</text>
+<circle cx="-465.7" cy="833.2" r="5" fill="#00A344"/>
+<text class="leg" x="-455.7" y="837.2" font-size="12" fill="#14204A">1. GT-12/SBEM, Suzi Samá Pinto, Irene Maurício Cazorla (13)</text>
+<circle cx="64.3" cy="833.2" r="5" fill="#6A3BFF"/>
+<text class="leg" x="74.3" y="837.2" font-size="12" fill="#14204A">2. Celi Espasandin Lopes, Universidade de Granada, Ensino em Re-Vista (…</text>
+<circle cx="594.2" cy="833.2" r="5" fill="#B45309"/>
+<text class="leg" x="604.2" y="837.2" font-size="12" fill="#14204A">3. Comitê de Educação do ISI, ICOTS-1 (Sheffield, 1982), ISI (11)</text>
+<circle cx="-995.7" cy="853.2" r="5" fill="#0B1F66"/>
+<text class="leg" x="-985.7" y="857.2" font-size="12" fill="#14204A">4. International Study Grou…, SERJ, SERN (9)</text>
+<circle cx="-465.7" cy="853.2" r="5" fill="#0E7490"/>
+<text class="leg" x="-455.7" y="857.2" font-size="12" fill="#14204A">5. Cileda de Queiroz e Silv…, PUC-SP, Sandra Magina (6)</text>
+<circle cx="64.3" cy="853.2" r="5" fill="#8B5CF6"/>
+<text class="leg" x="74.3" y="857.2" font-size="12" fill="#14204A">6. UFPE, GREF, Grupo de Estudos em Raci… (6)</text>
+</g>
+<text class="rod" x="-1000.7" y="887.2" font-size="10.5" fill="#64748B">Como foi construída: 772 arestas (716 afirmadas, o restante incerto) extraídas de 50 documentos lidos em fichas com página; cada ligação existe porque ao menos uma fonte a afirma, sem inferência. Nós: 387 entidades reais (pessoas, instituições, eventos, grupos, periódicos, programas); os 51 nós-síntese (documentos, conceitos e agregados) foram</text>
+<text class="rod" x="-1000.7" y="901.2" font-size="10.5" fill="#64748B">omitidos. A figura mostra os 76 nós com 3 ou mais vizinhos distintos e 141 ligações (cheias: árvore de maior peso; tracejadas: demais). Tamanho do nó = número de afirmações distintas em que aparece. Blocos: agrupamento automático de Louvain; posição: layout do programa Redes, sem significado histórico. A rede mede o corpus, não a área.</text>
+</svg>

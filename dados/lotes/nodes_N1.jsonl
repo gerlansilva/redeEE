@@ -1,0 +1,9 @@
+{"id": "FAPESP", "type": "instituicao", "ctx": "Brasil", "city": null, "year_start": null, "note": "Projeto de Professor Visitante (relato de Celi) e bolsa de estágio"}
+{"id": "Anna Regina Lanner de Moura", "type": "pessoa", "ctx": "Brasil", "city": null, "year_start": null, "note": "Orientadora do doutorado de Celi (UNICAMP), segundo Ody 2019 p. 100"}
+{"id": "Congresso na Venezuela (não identificado)", "type": "evento", "ctx": "Venezuela", "city": null, "year_start": null, "note": "Congresso citado por Celi (Ody 2019 pp. 99-100); identificação com III CIBEM é inferência não confirmada"}
+{"id": "III CIBEM (Caracas, 1998)", "type": "evento", "ctx": "Venezuela", "city": "Caracas", "year_start": 1998, "note": "Congresso Ibero-americano de Educação Matemática; GT de Estocástica (Salcedo, Batanero)"}
+{"id": "Estela Kaufman Fainguerlent", "type": "pessoa", "ctx": "Brasil", "city": null, "year_start": null, "note": "Universidade Santa Úrsula; comunicação convidada no III CIBEM"}
+{"id": "Janete Bolite Frant", "type": "pessoa", "ctx": "Brasil", "city": null, "year_start": null, "note": "Universidade Santa Úrsula; comunicação convidada no III CIBEM"}
+{"id": "Universidade Santa Úrsula", "type": "instituicao", "ctx": "Brasil", "city": null, "year_start": null, "note": "Mestrado em educação matemática com cooperação com Rutgers desde 1996"}
+{"id": "Rutgers University", "type": "instituicao", "ctx": "EUA", "city": null, "year_start": null, "note": "Cooperação científica com a Universidade Santa Úrsula"}
+{"id": "Rede ibero-americana de pesquisa em educação estatística (decisão de 1998)", "type": "marco", "ctx": "Internacional", "city": null, "year_start": 1998, "note": "Decisão ao fim do III CIBEM; implantação não documentada"}

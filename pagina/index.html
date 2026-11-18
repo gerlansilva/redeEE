@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rede de relações da Educação Estatística (438 nós, 772 arestas)</title>
+<style>
+:root{--ink:#1f2a44;--mut:#5b6478;--br:#d9531e;--ex:#2a78d6;--pt:#7a3fc4;--line:#d7dbe6;--bg:#fffaf5}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;font-family:Inter,system-ui,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+#app{display:grid;grid-template-columns:1fr 400px;grid-template-rows:auto 1fr;height:100vh}
+header{grid-column:1/3;padding:10px 16px;border-bottom:1px solid var(--line);background:#fff;display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+h1{font-size:16px;margin:0;font-weight:700}
+.grp{display:flex;gap:6px;align-items:center;font-size:13px;flex-wrap:wrap}
+.grp label.t{color:var(--mut);font-weight:600}
+button,select,input{font:inherit;font-size:13px}
+button{border:1px solid var(--line);background:#fff;border-radius:8px;padding:5px 10px;cursor:pointer;color:var(--ink)}
+button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+input[type=text],input[type=number]{border:1px solid var(--line);border-radius:8px;padding:5px 8px}
+input[type=number]{width:70px}
+#stats{margin-left:auto;font-size:13px;color:var(--mut)}
+#stats b{color:var(--ink)}
+#cv{position:relative;overflow:hidden;background:#fff}
+canvas{display:block;width:100%;height:100%;cursor:grab}
+#legend{position:absolute;left:12px;bottom:12px;max-width:620px;background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:12.5px;line-height:1.7}
+.sw{display:inline-block;width:22px;height:0;border-top:3px solid;vertical-align:middle;margin-right:6px}
+.dot{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:middle;margin-right:6px}
+#side{border-left:1px solid var(--line);background:#fff;overflow:auto;padding:14px 16px}
+#side h2{font-size:17px;margin:0 0 4px;line-height:1.25}
+.tag{display:inline-block;font-size:12px;border-radius:10px;padding:1px 9px;margin:0 4px 4px 0;background:#eef1f8;color:var(--ink)}
+.tag.p{background:#efe4fb;color:var(--pt)}.tag.i{background:#fff3c4}.tag.c{background:#ffe0d6;color:#a3320b}
+.claim{border-top:1px solid var(--line);padding:9px 0;font-size:13.5px;line-height:1.4}
+.claim .h{font-weight:600}
+.claim .ev{color:#2b3550;margin:3px 0}
+.claim .src{color:var(--mut);font-size:12.5px}
+.mut{color:var(--mut);font-size:13px;line-height:1.45}
+.note{background:#fff3c4;border-radius:10px;padding:9px 12px;font-size:12.5px;line-height:1.45;margin-top:12px}
+a.nb{cursor:pointer;color:var(--ex);text-decoration:underline}
+#tip{position:absolute;pointer-events:none;background:#1f2a44;color:#fff;font-size:12.5px;padding:4px 9px;border-radius:7px;display:none;max-width:320px}
+@media(max-width:900px){#app{grid-template-columns:1fr;grid-template-rows:auto 60vh auto}#side{border-left:0;border-top:1px solid var(--line)}header{grid-column:1}}
+</style>
+</head>
+<body>
+<div id="app">
+<header>
+ <h1>Rede de relações da Educação Estatística</h1>
+ <div class="grp"><label class="t">Ligações:</label>
+  <button data-cls="all" class="on">todas</button><button data-cls="P">pontes exterior–Brasil</button><button data-cls="EE">exterior–exterior</button><button data-cls="BB">Brasil–Brasil</button></div>
+ <div class="grp"><label class="t">Anos:</label><input type="number" id="y0" value="1880" min="1800" max="2030" step="10"> a <input type="number" id="y1" value="2026" min="1800" max="2030" step="10">
+  <label><input type="checkbox" id="undated" checked> incluir sem ano</label></div>
+ <div class="grp"><label class="t">Mín. de ligações do nó:</label><input type="number" id="dg" value="3" min="1" max="40"></div>
+ <div class="grp"><label><input type="checkbox" id="halo" checked> manchas dos blocos</label><label><input type="checkbox" id="unc"> só afirmadas</label><label><input type="checkbox" id="prob"> sem identificações prováveis</label><label><input type="checkbox" id="syn"> mostrar nós-síntese</label><button id="how">Como foi construída</button></div>
+ <div class="grp"><input type="text" id="q" placeholder="Buscar nó (ex.: Batanero)" list="dl"><datalist id="dl"></datalist></div>
+ <div id="stats"></div>
+</header>
+<div id="cv"><canvas id="c"></canvas><div id="tip"></div>
+ <div id="legend">
+  <div><span class="dot" style="background:var(--br)"></span>nó do Brasil &nbsp; <span class="dot" style="background:var(--ex)"></span>nó do exterior</div>
+  <div><span class="sw" style="border-color:var(--pt)"></span>ponte exterior–Brasil &nbsp; <span class="sw" style="border-color:#9aa5bd"></span>demais</div>
+  <div><span class="sw" style="border-top-style:dashed;border-color:#9aa5bd"></span>ligação incerta &nbsp; <span style="color:#c0261d;font-weight:700">●</span> data ou fonte em conflito</div>
+  <div class="mut">Tamanho = nº de vizinhos · □ nó-síntese · posição sem significado histórico (ver “Como foi construída”)</div>
+
+ </div>
+</div>
+<aside id="side"></aside>
+</div>
+<script>
+(async function(){
+const D=await (await fetch('rede_data.json')).json();
+const LAY=await (await fetch('layouts.json')).json();
+const TYPES={pessoa:'pessoa',instituicao:'instituição',evento:'evento',grupo:'grupo',documento:'documento',marco:'marco',periodico:'periódico',programa:'programa'};
+const REL=s=>s.replace(/_/g,' ');
+const nodes=D.nodes.map((n,i)=>({i,id:n[0],type:n[1],ctx:n[2],city:n[3],note:n[4],deg:n[5],syn:!!n[6],br:n[2]==='Brasil',vis:false}));
+const byId=new Map(nodes.map(n=>[n.id,n]));
+const edges=D.edges.map((e,k)=>({k,s:byId.get(e[0]),t:byId.get(e[1]),rel:e[2],y:e[3],y2:e[4],unc:e[5],conf:e[6],cls:e[7],ev:e[8],doc:e[9],pg:e[10],prob:!!e[13],corr:e[14]}));
+const dl=document.getElementById('dl');[...nodes].sort((a,b)=>a.id.localeCompare(b.id)).forEach(n=>{const o=document.createElement('option');o.value=n.id;dl.appendChild(o)});
+const S={syn:false,prob:false,halo:true,cls:'all',y0:1880,y1:2026,undated:true,dg:3,unc:false,sel:null,selEdge:null,hover:null,ego:false};
+const PAL=['#3b3bf5','#12a35a','#7c4dff','#c2601b','#1d2b6b','#1a7f94','#9a6cf0','#5c7a14','#a31d52','#b08900','#0e7c66','#8a3ffc'];
+const cv=document.getElementById('c'),ctx=cv.getContext('2d'),side=document.getElementById('side'),tip=document.getElementById('tip');
+let W=0,H=0,DPR=window.devicePixelRatio||1,view={x:0,y:0,k:1};
+function resize(){const r=cv.parentElement.getBoundingClientRect();W=r.width;H=r.height;cv.width=W*DPR;cv.height=H*DPR;draw()}
+window.addEventListener('resize',resize);
+let vn=[],pairs=[],adj=new Map(),LK=null,hulls=[];
+function yearOK(e){if(e.y==null)return S.undated;return e.y>=S.y0&&e.y<=S.y1}
+const hull=pts=>{pts.sort((a,b)=>a[0]-b[0]||a[1]-b[1]);const cr=(o,a,b)=>(a[0]-o[0])*(b[1]-o[1])-(a[1]-o[1])*(b[0]-o[0]);const lo=[],up=[];for(const p of pts){while(lo.length>=2&&cr(lo[lo.length-2],lo[lo.length-1],p)<=0)lo.pop();lo.push(p)}for(const p of pts.slice().reverse()){while(up.length>=2&&cr(up[up.length-2],up[up.length-1],p)<=0)up.pop();up.push(p)}return lo.slice(0,-1).concat(up.slice(0,-1))};
+function refilter(refit){
+ let E=edges.filter(e=>(S.cls==='all'||e.cls===S.cls)&&yearOK(e)&&!(S.unc&&e.unc)&&!(S.prob&&e.prob)&&(S.syn||(!e.s.syn&&!e.t.syn))&&e.s!==e.t);
+ const nb=new Map();E.forEach(e=>{for(const [a,b] of [[e.s,e.t],[e.t,e.s]]){if(!nb.has(a))nb.set(a,new Set());nb.get(a).add(b)}});
+ let keep=new Set([...nb.keys()].filter(n=>nb.get(n).size>=S.dg));
+ if(S.sel&&S.ego){keep=new Set([S.sel]);(nb.get(S.sel)||[]).forEach(n=>keep.add(n))}
+ else if(S.sel&&nb.has(S.sel)){keep.add(S.sel)}
+ const g=S.ego?1:Math.min(Math.max(S.dg,1),3);
+ LK=(S.ego&&S.sel&&!S.syn&&LAY['ego_'+S.sel.id])||LAY[(S.cls==='all'?'all':S.cls)+'_'+g+'_'+(S.syn?1:0)]||LAY['all_'+g+'_'+(S.syn?1:0)];
+ if(S.cls==='all')S.cls='all';
+ keep=new Set([...keep].filter(n=>LK.pos[n.id]));
+ E=E.filter(e=>keep.has(e.s)&&keep.has(e.t));
+ const pm=new Map();
+ E.forEach(e=>{const key=e.s.i<e.t.i?e.s.i+'_'+e.t.i:e.t.i+'_'+e.s.i;if(!pm.has(key))pm.set(key,{a:e.s,b:e.t,cl:[]});pm.get(key).cl.push(e)});
+ pairs=[...pm.values()];pairs.forEach(p=>{p.cls=p.cl.some(e=>e.cls==='P')?'P':p.cl[0].cls;p.unc=p.cl.every(e=>e.unc);p.conf=p.cl.some(e=>e.conf)});
+ adj=new Map();keep.forEach(n=>adj.set(n,new Set()));pairs.forEach(p=>{adj.get(p.a).add(p.b);adj.get(p.b).add(p.a)});
+ vn=[...keep].filter(n=>adj.get(n).size>0||n===S.sel);
+ vn.forEach(n=>{n.vis=true;const q=LK.pos[n.id];n.x=q[0];n.y=q[1];n.r=q[2];n.fs=q[3];n.tw=q[4];n.com=q[5];n.d=adj.get(n).size});
+ const bc=new Map();vn.forEach(n=>{if(!bc.has(n.com))bc.set(n.com,[]);bc.get(n.com).push(n)});
+ hulls=[...bc.entries()].map(([c,ns])=>{const pts=[];ns.forEach(n=>{pts.push([n.x-n.r-3,n.y-n.fs*.7],[n.x+n.r+4+n.tw,n.y-n.fs*.7],[n.x+n.r+4+n.tw,n.y+n.fs*.7],[n.x-n.r-3,n.y+n.fs*.7])});return {c,pts:hull(pts),name:LK.com[c]}});
+ stats();if(refit!==false)fit();else draw();
+}
+function stats(){
+ const claims=new Set();let p=0,m=0;pairs.forEach(q=>q.cl.forEach(e=>{claims.add(e.s.id+'|'+e.rel+'|'+e.t.id);m++;if(e.cls==='P')p++}));
+ document.getElementById('stats').innerHTML=`<b>${vn.length}</b> nós · <b>${m}</b> arestas (<b>${claims.size}</b> afirmações distintas) · <b>${p}</b> pontes <span style="opacity:.8">· corpus: 438 nós, 772 arestas, 120 pontes</span>`;
+}
+function fit(){
+ if(!vn.length){draw();return}let x0=1e9,x1=-1e9,y0=1e9,y1=-1e9;vn.forEach(n=>{x0=Math.min(x0,n.x-n.r);x1=Math.max(x1,n.x+n.r+4+n.tw);y0=Math.min(y0,n.y-n.fs);y1=Math.max(y1,n.y+n.fs)});
+ const pad=30,bot=135,k=Math.min((W-2*pad)/(x1-x0),(H-pad-bot)/(y1-y0),3);view.k=k;view.x=W/2-k*(x0+x1)/2;view.y=pad+(H-pad-bot)/2-k*(y0+y1)/2;draw();
+}
+const COL={P:'#7a3fc4',EE:'#8d99b3',BB:'#e19a77'};
+function sx(x){return x*view.k+view.x}function sy(y){return y*view.k+view.y}
+function focusSet(){const f=S.sel||S.hover;if(!f||!adj.has(f))return null;const s=new Set(adj.get(f));s.add(f);return s}
+function draw(){
+ ctx.setTransform(DPR,0,0,DPR,0,0);ctx.clearRect(0,0,W,H);
+ const fs=focusSet(),F=S.sel||S.hover,k=view.k;
+ if(S.halo){for(const h of hulls){if(h.pts.length<3)continue;ctx.beginPath();h.pts.forEach((p,i)=>i?ctx.lineTo(sx(p[0]),sy(p[1])):ctx.moveTo(sx(p[0]),sy(p[1])));ctx.closePath();ctx.globalAlpha=.13;ctx.fillStyle=PAL[h.c%PAL.length];ctx.strokeStyle=PAL[h.c%PAL.length];ctx.lineWidth=40*k;ctx.lineJoin='round';ctx.fill();ctx.stroke()}ctx.globalAlpha=1}
+ for(const p of pairs){
+  const dim=fs&&!(p.a===F||p.b===F);
+  ctx.beginPath();ctx.moveTo(sx(p.a.x),sy(p.a.y));ctx.lineTo(sx(p.b.x),sy(p.b.y));
+  ctx.strokeStyle=COL[p.cls];ctx.globalAlpha=dim?.07:(p.cls==='P'?.9:.55);ctx.lineWidth=Math.max(.8,(p.cls==='P'?1.8:1)*(1+Math.log2(p.cl.length)*.5))*(S.selEdge===p?2:1);
+  ctx.setLineDash(p.unc?[6,4]:[]);ctx.stroke();
+ }
+ ctx.setLineDash([]);ctx.globalAlpha=1;
+ for(const p of pairs){if(!p.conf)continue;if(fs&&!(p.a===F||p.b===F))continue;ctx.fillStyle='#c0261d';ctx.beginPath();ctx.arc((sx(p.a.x)+sx(p.b.x))/2,(sy(p.a.y)+sy(p.b.y))/2,2.8,0,6.3);ctx.fill()}
+ for(const n of vn){
+  const dim=fs&&!fs.has(n);ctx.globalAlpha=dim?.18:1;const rr=n.r*k,cc=n.br?'#d9531e':'#2a78d6';
+  if(n.syn){ctx.fillStyle='#fff';ctx.fillRect(sx(n.x)-rr,sy(n.y)-rr,2*rr,2*rr);ctx.lineWidth=2.2;ctx.strokeStyle=n===S.sel?'#1f2a44':cc;ctx.strokeRect(sx(n.x)-rr,sy(n.y)-rr,2*rr,2*rr)}
+  else{ctx.beginPath();ctx.arc(sx(n.x),sy(n.y),rr,0,6.3);ctx.fillStyle=cc;ctx.fill();ctx.lineWidth=n===S.sel?3:1.5;ctx.strokeStyle=n===S.sel?'#1f2a44':'#fff';ctx.stroke()}
+ }
+ ctx.globalAlpha=1;ctx.textBaseline='middle';ctx.lineJoin='round';
+ const placed=[];const ord=[...vn].sort((x,y)=>((y===S.sel)-(x===S.sel))||((y===S.hover)-(x===S.hover))||(y.d-x.d));
+ for(const n of ord){
+  const isF=fs&&fs.has(n);if(fs&&!isF)continue;const sz=Math.max(n.fs*k,n===S.sel?12:9);
+  ctx.font=(n===S.sel?'700 ':'500 ')+sz+'px Inter,Arial';const t=LK.pos[n.id][6];const w=ctx.measureText(t).width;
+  const x=sx(n.x)+n.r*k+4,y=sy(n.y),bx=[x-2,y-sz*.6,x+w+2,y+sz*.6];
+  if(placed.some(q=>!(bx[2]<q[0]||bx[0]>q[2]||bx[3]<q[1]||bx[1]>q[3])))continue;
+  if(sx(n.x)<-50||sx(n.x)>W+50||sy(n.y)<-20||sy(n.y)>H+20)continue;
+  placed.push(bx);ctx.lineWidth=3;ctx.strokeStyle='#fff';ctx.strokeText(t,x,y);ctx.fillStyle='#1f2a44';ctx.fillText(t,x,y);
+ }
+}
+function pick(mx,my){let best=null,bd=1e9;for(const n of vn){const r=Math.max(n.r*view.k,6)+3;const d=Math.hypot(sx(n.x)-mx,sy(n.y)-my);if(d<r&&d<bd){bd=d;best=n}}return best}
+function pickPair(mx,my){let best=null,bd=6;for(const p of pairs){const x1=sx(p.a.x),y1=sy(p.a.y),x2=sx(p.b.x),y2=sy(p.b.y);const dx=x2-x1,dy=y2-y1;const L2=dx*dx+dy*dy||1;let u=((mx-x1)*dx+(my-y1)*dy)/L2;u=Math.max(0,Math.min(1,u));const d=Math.hypot(mx-(x1+u*dx),my-(y1+u*dy));if(d<bd){bd=d;best=p}}return best}
+let drag=null,moved=false;
+cv.addEventListener('mousedown',ev=>{const r=cv.getBoundingClientRect();drag={mx:ev.clientX-r.left,my:ev.clientY-r.top,vx:view.x,vy:view.y};moved=false;cv.style.cursor='grabbing'});
+window.addEventListener('mouseup',ev=>{if(!drag)return;cv.style.cursor='grab';if(!moved){const r=cv.getBoundingClientRect();const mx=ev.clientX-r.left,my=ev.clientY-r.top;if(mx>=0&&my>=0&&mx<=r.width&&my<=r.height){const n=pick(mx,my);if(n)select(n);else{const p=pickPair(mx,my);if(p)selectPair(p);else{S.selEdge=null;if(S.sel){S.sel=null;S.ego=false;refilter();home()}else draw()}}}}drag=null});
+window.addEventListener('mousemove',ev=>{const r=cv.getBoundingClientRect();const mx=ev.clientX-r.left,my=ev.clientY-r.top;
+ if(drag){const dx=mx-drag.mx,dy=my-drag.my;if(Math.abs(dx)+Math.abs(dy)>3)moved=true;if(moved){view.x=drag.vx+dx;view.y=drag.vy+dy;draw()}return}
+ if(mx<0||my<0||mx>r.width||my>r.height){tip.style.display='none';return}
+ const n=pick(mx,my);if(n!==S.hover){S.hover=n;draw()}
+ if(n){tip.style.display='block';tip.style.left=Math.min(mx+14,r.width-330)+'px';tip.style.top=(my+14)+'px';tip.textContent=n.id+' · '+(TYPES[n.type]||n.type)+' · '+n.d+' vizinhos'}else tip.style.display='none'});
+cv.addEventListener('wheel',ev=>{ev.preventDefault();const r=cv.getBoundingClientRect();const mx=ev.clientX-r.left,my=ev.clientY-r.top;const f=ev.deltaY<0?1.15:1/1.15;const k=Math.max(.05,Math.min(10,view.k*f));view.x=mx-(mx-view.x)*(k/view.k);view.y=my-(my-view.y)*(k/view.k);view.k=k;draw()},{passive:false});
+const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+function yr(e){return e.y==null?'sem ano':(e.y2&&e.y2!==e.y?e.y+'–'+e.y2:e.y)}
+function claimHTML(e,from){
+ const tags=(e.cls==='P'?'<span class="tag p">ponte exterior–Brasil</span>':'')+(e.unc?'<span class="tag i">incerta</span>':'')+(e.conf?'<span class="tag c">data ou fonte em conflito</span>':'')+(e.prob?'<span class="tag i">identificação provável (sobrenome ou iniciais)</span>':'');
+ return `<div class="claim"><div class="h"><a class="nb" data-n="${esc(e.s.id)}">${esc(e.s.id)}</a> — ${REL(e.rel)} → <a class="nb" data-n="${esc(e.t.id)}">${esc(e.t.id)}</a> <span class="mut">(${yr(e)})</span></div>${tags?'<div>'+tags+'</div>':''}<div class="ev">${esc(e.ev)}</div><div class="src">${esc(e.doc)}${e.pg?', '+esc(e.pg):''}</div>${e.corr?`<div class="src">Correção registrada: ${esc(e.corr)}</div>`:''}</div>`;
+}
+function home(){
+ 
+ side.innerHTML=`<h2>Como usar</h2><p class="mut">Clique num nó ou numa ligação para ver <b>o que a fonte afirma</b>, o documento e a página. Cada ligação existe porque ao menos uma fonte a afirma.</p>
+ <p class="mut"><b>Pontes</b> são ligações em que exatamente um dos lados tem contexto Brasil (120 no total). Use o botão <i>pontes exterior–Brasil</i> para ver só elas e reduza o <i>mín. de ligações</i> para 1 para ver todos os nós.</p>
+ <div class="note"><b>Leitura com cuidado.</b> A rede mede o corpus, não a área: cerca de 22% das arestas (47,6% das exterior–exterior) vêm de textos de Batanero, e o acervo do CIEEE 1999 lista cada apoio e cada membro da comissão. Direção da aresta não é direção de influência, e quantidade de arestas não mede importância.</div>
+ <h2 style="margin-top:16px">Maiores nós (na vista atual)</h2>${[...vn].sort((a,b)=>b.d-a.d).slice(0,12).map(n=>`<div class="claim" style="padding:5px 0"><a class="nb" data-n="${esc(n.id)}">${esc(n.id)}</a> <span class="mut">· ${n.d}</span></div>`).join('')}`;
+ bindLinks();
+}
+function method(){
+ const top=D.docs.slice(0,50).map(d=>`<tr><td>${esc(d[0])}</td><td style="text-align:right">${d[1]}</td></tr>`).join('');
+ side.innerHTML=`<h2>Como esta rede foi construída</h2>
+ <p class="mut"><b>1. Material.</b> Cada um dos ${D.docs.length} documentos do capítulo (capítulos de handbooks, a tese de Santos 2015, a dissertação de Araújo 2017, textos de Batanero, editoriais dos números temáticos, o relato de Ody 2019, o site recuperado e o Acervo CIEEE 1999) foi lido e resumido numa ficha estruturada, com páginas.</p>
+ <p class="mut"><b>2. Regra central.</b> Uma aresta só existe se a ficha afirma a relação ou o ano. Nada foi inferido nem completado de memória. Cada aresta guarda a paráfrase do que a fonte diz, o documento e a página (61 arestas estão sem página; aparecem como s/p). Se a fonte marca dúvida, a aresta é <i>incerta</i> (56). Se duas fontes divergem, as duas entram e a aresta recebe a marca de <i>conflito</i>.</p>
+ <p class="mut"><b>3. Extração em lotes.</b> Fichas processadas em lotes (L1 a L5, editoriais, números temáticos, site e acervo do CIEEE). Vocabulário fechado de relações (criou, fundou, presidiu, organizou, orientou, influenciou, colaborou com, participou de, entre outras).</p>
+ <p class="mut"><b>4. Nomes.</b> Nomes canônicos com tabela de variantes (por exemplo, "Cileda Coutinho" e "Cileda de Queiroz e Silva Coutinho" são um nó). Quando a unificação foi feita por sobrenome ou iniciais, as 12 arestas ficaram marcadas como <i>identificação provável</i>; só C. A. Peres e P. A. Morettin foram confirmados como Clóvis Peres e Pedro Morettin. SPAINFL e BND-BRAX (bandeiras do site) foram retirados e o INE foi corrigido para o Depto. de Informática e Estatística da UFSC.</p>
+ <p class="mut"><b>5. Classe da aresta.</b> Pelo contexto de cada ponta: <i>ponte</i> se exatamente um lado é Brasil (120), <i>exterior–exterior</i> se nenhum (336), <i>Brasil–Brasil</i> se os dois (316).</p>
+ <p class="mut"><b>6. O que se vê.</b> A posição vem do algoritmo de layout do programa Redes: agrupamento de Louvain em blocos (as manchas coloridas), molas dentro de cada bloco, separação de círculos e rótulos e blocos afastados entre si, de modo que nada se sobrepõe. Cor do nó: contexto Brasil ou exterior. Tamanho: número de vizinhos na vista. Traço tracejado: aresta incerta. Ponto vermelho: conflito. A posição é calculada por um algoritmo de forças (nós ligados se aproximam) e <b>não tem significado histórico</b>. Por padrão, só aparecem pessoas, instituições, eventos, grupos, periódicos e programas; os 51 nós-síntese (documentos, conceitos como "Brasil" e "Educação Estatística", agregados como "Pesquisadores brasileiros de EE") ficam ocultos e aparecem como quadrados vazios quando ligados.</p>
+ <div class="note"><b>Limites.</b> A rede mede o corpus, não a área: cerca de 22% das arestas e 48% das exterior–exterior vêm de textos de Batanero, e o acervo do CIEEE lista cada apoio e cada membro da comissão. 204 arestas não têm ano. A direção da aresta segue o verbo e não indica influência; contar arestas não mede importância. O internacional recente (de 2010 em diante) quase não está nas fichas. Na vista padrão aparecem menos pontes que as 120 do corpus porque 25 delas ligam nós-síntese (por exemplo, "Pesquisa em Educação Estatística no Brasil"); marque <i>mostrar nós-síntese</i> para vê-las.</div>
+ <h2 style="margin-top:16px;font-size:15px">Arestas por documento</h2><table style="font-size:12.5px;width:100%;border-collapse:collapse">${top}</table>`;
+}
+
+function select(n){
+ S.sel=n;S.selEdge=null;
+ if(!n.vis||!vn.includes(n)){if(S.dg>1){S.dg=1;document.getElementById('dg').value=1}refilter()}
+ const all=edges.filter(e=>e.s===n||e.t===n).filter(e=>(S.cls==='all'||e.cls===S.cls)&&yearOK(e)&&!(S.unc&&e.unc)&&!(S.prob&&e.prob)&&(S.syn||(!e.s.syn&&!e.t.syn)));
+ const nbs=new Set();all.forEach(e=>nbs.add(e.s===n?e.t:e.s));const np=all.filter(e=>e.cls==='P').length;
+ const bl=vn.includes(n)?LK.com[n.com]:'';
+ side.innerHTML=`<h2>${esc(n.id)}</h2><div><span class="tag">${TYPES[n.type]||n.type}</span><span class="tag">${esc(n.ctx||'sem contexto')}</span>${n.city?`<span class="tag">${esc(n.city)}</span>`:''}${np?`<span class="tag p">${np} ponte(s)</span>`:''}${n.syn?'<span class="tag i">nó-síntese</span>':''}</div>
+ <p class="mut">${esc(n.note||'')}</p>${bl?`<p class="mut">Bloco automático: ${esc(bl)}</p>`:''}
+ <div class="mut" style="margin:6px 0"><b>${all.length}</b> afirmações com <b>${nbs.size}</b> vizinhos (nos filtros atuais). <label><input type="checkbox" id="ego"${S.ego?' checked':''}> mostrar só este nó e seus vizinhos</label></div>
+ ${all.sort((a,b)=>(b.cls==='P')-(a.cls==='P')||(a.y??9999)-(b.y??9999)).map(e=>claimHTML(e)).join('')||'<p class="mut">Nenhuma ligação nos filtros atuais.</p>'}`;
+ bindLinks();document.getElementById('ego').onchange=e=>{S.ego=e.target.checked;refilter()};draw();
+}
+function selectPair(p){S.selEdge=p;side.innerHTML='<h2>'+esc(p.a.id)+' — '+esc(p.b.id)+'</h2>'+p.cl.map(e=>claimHTML(e)).join('');bindLinks();draw()}
+function bindLinks(){side.querySelectorAll('a.nb').forEach(a=>a.onclick=()=>{const n=byId.get(a.dataset.n);if(n){S.ego=false;select(n)}})}
+document.querySelectorAll('button[data-cls]').forEach(b=>b.onclick=()=>{document.querySelectorAll('button[data-cls]').forEach(x=>x.classList.remove('on'));b.classList.add('on');S.cls=b.dataset.cls;S.dg=({all:3,P:1,EE:2,BB:2})[S.cls];document.getElementById('dg').value=S.dg;refilter();S.sel?select(S.sel):home()});
+['y0','y1'].forEach(id=>document.getElementById(id).onchange=e=>{S[id]=+e.target.value;refilter();S.sel?select(S.sel):home()});
+const bind=(id,key,inv)=>document.getElementById(id).onchange=e=>{S[key]=e.target.checked;refilter();if(key==='halo')return;S.sel?select(S.sel):home()};
+bind('undated','undated');bind('unc','unc');bind('prob','prob');bind('syn','syn');bind('halo','halo');
+document.getElementById('dg').onchange=e=>{S.dg=Math.max(1,+e.target.value||1);refilter();S.sel?select(S.sel):home()};
+document.getElementById('how').onclick=()=>{S.sel=null;S.selEdge=null;method()};
+document.getElementById('q').onchange=e=>{const n=byId.get(e.target.value)||nodes.find(n=>n.id.toLowerCase().includes(e.target.value.toLowerCase()));if(n){S.ego=true;S.sel=n;if(S.dg>1){S.dg=1;document.getElementById('dg').value=1}refilter();select(n)}};
+window.__d={nodes,edges,view,S};resize();refilter();home();
+})();
+</script>
+</body>
+</html>

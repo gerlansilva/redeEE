@@ -1,0 +1,93 @@
+{"id": "ISI", "type": "instituicao", "ctx": "Internacional", "city": "Londres", "year_start": 1885, "note": "Fundado em 1885; criou Comitê de Educação em 1948."}
+{"id": "IASE", "type": "instituicao", "ctx": "Internacional", "city": null, "year_start": 1991, "note": "Sucedeu o Comitê de Educação do ISI em 1991."}
+{"id": "Comitê de Educação do ISI", "type": "grupo", "ctx": "Internacional", "city": null, "year_start": 1948, "note": "Criado em 1948 (ou 1949, conforme fonte); substituído pela IASE."}
+{"id": "Comitê de Ensino de Estatística do IMS", "type": "grupo", "ctx": "EUA", "city": null, "year_start": 1940, "note": "Antecedente do comitê do ISI, segundo Porciúncula citando Cordani."}
+{"id": "IMS", "type": "instituicao", "ctx": "EUA", "city": null, "year_start": null, "note": "Institute of Mathematical Statistics."}
+{"id": "RSS", "type": "instituicao", "ctx": "Reino Unido", "city": null, "year_start": null, "note": "Royal Statistical Society."}
+{"id": "Comitê em Educação Estatística da RSS", "type": "grupo", "ctx": "Reino Unido", "city": null, "year_start": 1967, "note": "Criado em 1967 na RSS."}
+{"id": "ASA", "type": "instituicao", "ctx": "EUA", "city": null, "year_start": 1839, "note": "American Statistical Association; seção de treinamento/educação estatística."}
+{"id": "Seção de Educação Estatística da ASA", "type": "grupo", "ctx": "EUA", "city": null, "year_start": null, "note": "Criada 1944 ou 1947 como seção de treinamento; renomeada nos anos 1970."}
+{"id": "NCTM", "type": "instituicao", "ctx": "EUA", "city": null, "year_start": null, "note": "Publicou Standards de 1989."}
+{"id": "Curriculum and Evaluation Standards (NCTM, 1989)", "type": "documento", "ctx": "EUA", "city": null, "year_start": 1989, "note": "Inclui eixo análise de dados e probabilidade."}
+{"id": "Teaching Statistics", "type": "periodico", "ctx": "Reino Unido", "city": null, "year_start": 1979, "note": "Primeiro número em 1979; criador varia conforme texto."}
+{"id": "TOTSAS", "type": "grupo", "ctx": "Internacional", "city": null, "year_start": null, "note": "Task force do ISI no fim dos anos 1970, liderada por Vic Barnett."}
+{"id": "SERJ", "type": "periodico", "ctx": "Internacional", "city": null, "year_start": 2002, "note": "Estreou em 2002 pela IASE, em publicação com ISI."}
+{"id": "SERN", "type": "periodico", "ctx": "Internacional", "city": null, "year_start": 2000, "note": "Newsletter da IASE tornada regular em 2000."}
+{"id": "ICOTS-1 (Sheffield, 1982)", "type": "evento", "ctx": "Internacional", "city": "Sheffield", "year_start": 1982, "note": "Primeiro ICOTS; 1982 proposto como início simbólico da disciplina."}
+{"id": "ICOTS-3 (1994)", "type": "evento", "ctx": "Internacional", "city": null, "year_start": 1994, "note": "Primeiro ICOTS organizado pela IASE."}
+{"id": "ICOTS-7 (Salvador, 2006)", "type": "evento", "ctx": "Internacional", "city": "Salvador", "year_start": 2006, "note": "Realizado no Brasil; Araújo o numera como 6º."}
+{"id": "International Study Group for Research on Learning Probability and Statistics", "type": "grupo", "ctx": "Internacional", "city": null, "year_start": 1982, "note": "Criado em 1982; secretariado por Green, Garfield e Batanero."}
+{"id": "ISLP", "type": "grupo", "ctx": "Internacional", "city": null, "year_start": 1994, "note": "International Statistical Literacy Project; origem no comitê do ISI; sob IASE desde 2000."}
+{"id": "Round Tables do ISI", "type": "evento", "ctx": "Internacional", "city": null, "year_start": 1968, "note": "Reuniões 1968-1992; última do Comitê do ISI em 1992, depois absorvida pela IASE."}
+{"id": "Reunião ASA (Louisville, 1992)", "type": "evento", "ctx": "EUA", "city": "Louisville", "year_start": 1992, "note": "Reunião em janeiro de 1992, mais de 600 participantes."}
+{"id": "Teaching Statistics in Schools Throughout the World", "type": "documento", "ctx": "Internacional", "city": null, "year_start": 1982, "note": "Livro editado por Barnett; primeiro da coleção IASE."}
+{"id": "ASA-NCTM Joint Committee on the Curriculum in Statistics and Probability", "type": "grupo", "ctx": "EUA", "city": null, "year_start": 1967, "note": "Presidido por Frederick Mosteller."}
+{"id": "Programa de pós-graduação em EE (Minnesota, 2002)", "type": "programa", "ctx": "EUA", "city": "Minneapolis", "year_start": 2002, "note": "Primeiro programa formal de pós-graduação em EE, segundo Zieffler et al."}
+{"id": "University of Minnesota", "type": "instituicao", "ctx": "EUA", "city": null, "year_start": null, "note": "Universidade das autoras; iniciou programa de pós-graduação em EE em 2002."}
+{"id": "UNESCO", "type": "instituicao", "ctx": "Internacional", "city": null, "year_start": null, "note": "Apoiou ensino de estatística junto com ISI e ONU."}
+{"id": "ONU", "type": "instituicao", "ctx": "Internacional", "city": null, "year_start": null, "note": "Resolução de 1949 incitou UNESCO e ISI a melhorar educação estatística."}
+{"id": "Escola de Estatística e Ciências Atuariais (Venezuela, 1954)", "type": "instituicao", "ctx": "Venezuela", "city": null, "year_start": 1954, "note": "Criada em 1954 com apoio da UNESCO."}
+{"id": "II Conferência Interamericana de Educação Matemática", "type": "evento", "ctx": "América Latina", "city": null, "year_start": null, "note": "Ano varia: 1966 (Salcedo) ou década de 1970 (Porciúncula)."}
+{"id": "III Conferência Interamericana de Educação Matemática", "type": "evento", "ctx": "América Latina", "city": null, "year_start": 1972, "note": "Sugeriu probabilidade e estatística no currículo."}
+{"id": "Estatística no currículo latino-americano", "type": "marco", "ctx": "América Latina", "city": null, "year_start": null, "note": "Entrada da estatística no currículo de matemática a partir dos anos 1960."}
+{"id": "Estatística no Ensino Médio (Venezuela)", "type": "marco", "ctx": "Venezuela", "city": null, "year_start": null, "note": "Introduzida possivelmente nos anos 1970."}
+{"id": "Educação Estatística na América Latina", "type": "marco", "ctx": "América Latina", "city": null, "year_start": null, "note": "Movimento de pesquisa; produção concentrada no Brasil."}
+{"id": "Educação Estatística no Brasil", "type": "marco", "ctx": "Brasil", "city": null, "year_start": null, "note": "Campo de pesquisa e ensino no Brasil."}
+{"id": "Pesquisa em Educação Estatística no Brasil", "type": "marco", "ctx": "Brasil", "city": null, "year_start": null, "note": "Produção de teses e dissertações impulsionada por marcos citados."}
+{"id": "PCN (1997)", "type": "documento", "ctx": "Brasil", "city": null, "year_start": 1997, "note": "Vol. 3 traz bloco Tratamento da Informação."}
+{"id": "CIEEE 1999 (Florianópolis)", "type": "evento", "ctx": "Brasil", "city": "Florianópolis", "year_start": 1999, "note": "Conferência de 20-23 set. 1999, UFSC, PRESTA e IASE."}
+{"id": "UFSC", "type": "instituicao", "ctx": "Brasil", "city": "Florianópolis", "year_start": null, "note": "Dep. de Informática e Estatística organizou Florianópolis 1999."}
+{"id": "PRESTA", "type": "grupo", "ctx": "Brasil", "city": null, "year_start": null, "note": "Ligado à UFSC; co-organizou Florianópolis 1999."}
+{"id": "I SIPEM (Serra Negra, 2000)", "type": "evento", "ctx": "Brasil", "city": "Serra Negra", "year_start": 2000, "note": "Organização de 12 GTs, entre eles o GT-12."}
+{"id": "SBEM", "type": "instituicao", "ctx": "Brasil", "city": null, "year_start": null, "note": "Sociedade Brasileira de Educação Matemática."}
+{"id": "GT-12/SBEM", "type": "grupo", "ctx": "Brasil", "city": null, "year_start": null, "note": "Ensino de Probabilidade e Estatística; data de criação c. 2000-2003."}
+{"id": "GT-1/SBEM", "type": "grupo", "ctx": "Brasil", "city": null, "year_start": null, "note": "Grupo de anos iniciais."}
+{"id": "IASE Satellite Conference (Rio de Janeiro, 2015)", "type": "evento", "ctx": "Internacional", "city": "Rio de Janeiro", "year_start": 2015, "note": "22-24 jul. 2015, UNIRIO."}
+{"id": "Coletâneas do GT-12 (Mercado de Letras)", "type": "documento", "ctx": "Brasil", "city": null, "year_start": null, "note": "Duas coletâneas organizadas por Celi e Cileda."}
+{"id": "Curso de graduação em Estatística (UFRJ, 1946)", "type": "programa", "ctx": "Brasil", "city": "Rio de Janeiro", "year_start": 1946, "note": "Primeiro curso de graduação em Estatística no Brasil."}
+{"id": "UFRJ", "type": "instituicao", "ctx": "Brasil", "city": "Rio de Janeiro", "year_start": null, "note": ""}
+{"id": "PPGECM/UFPR", "type": "programa", "ctx": "Brasil", "city": "Curitiba", "year_start": null, "note": "Pós-graduação em Educação em Ciências e em Matemática."}
+{"id": "USP", "type": "instituicao", "ctx": "Brasil", "city": "São Paulo", "year_start": null, "note": "Inclui IME-USP."}
+{"id": "PUC-SP", "type": "instituicao", "ctx": "Brasil", "city": "São Paulo", "year_start": null, "note": ""}
+{"id": "UNICAMP", "type": "instituicao", "ctx": "Brasil", "city": "Campinas", "year_start": null, "note": ""}
+{"id": "UFPE", "type": "instituicao", "ctx": "Brasil", "city": "Recife", "year_start": null, "note": ""}
+{"id": "UNICSUL", "type": "instituicao", "ctx": "Brasil", "city": "São Paulo", "year_start": null, "note": ""}
+{"id": "UESC", "type": "instituicao", "ctx": "Brasil", "city": null, "year_start": null, "note": ""}
+{"id": "UFTM", "type": "instituicao", "ctx": "Brasil", "city": null, "year_start": null, "note": ""}
+{"id": "FURG", "type": "instituicao", "ctx": "Brasil", "city": null, "year_start": null, "note": ""}
+{"id": "UFRGS", "type": "instituicao", "ctx": "Brasil", "city": "Porto Alegre", "year_start": null, "note": ""}
+{"id": "Instituto Anísio Teixeira", "type": "instituicao", "ctx": "Brasil", "city": null, "year_start": null, "note": "Na Bahia."}
+{"id": "GREF", "type": "grupo", "ctx": "Brasil", "city": "Recife", "year_start": null, "note": "Grupo de Estudos em EE no Ensino Fundamental (UFPE)."}
+{"id": "LeME", "type": "grupo", "ctx": "Brasil", "city": null, "year_start": null, "note": "Projeto LEME, coordenado por Mauren Porciúncula."}
+{"id": "Universidade de Grenoble I", "type": "instituicao", "ctx": "França", "city": "Grenoble", "year_start": null, "note": "Doutorado de Cileda."}
+{"id": "Universidade de Granada", "type": "instituicao", "ctx": "Espanha", "city": "Granada", "year_start": null, "note": "Citada como principal parceira externa na América Latina."}
+{"id": "Concurso Latinoamericano de Pôster do ISLP", "type": "evento", "ctx": "Argentina", "city": null, "year_start": null, "note": "Coordenado por Adriana D'Amelio."}
+{"id": "II Jornadas Latinoamericanas de Investigación en Educación Estadística (2021)", "type": "evento", "ctx": "Argentina", "city": null, "year_start": 2021, "note": "Sede na Universidad Nacional del Litoral."}
+{"id": "Universidad Nacional del Litoral", "type": "instituicao", "ctx": "Argentina", "city": null, "year_start": null, "note": ""}
+{"id": "Carmen Batanero", "type": "pessoa", "ctx": "Espanha", "city": null, "year_start": null, "note": "Presidente da IASE 2001-2003; referência citada pelos entrevistados de Araújo."}
+{"id": "Celi Espasandin Lopes", "type": "pessoa", "ctx": "Brasil", "city": null, "year_start": null, "note": ""}
+{"id": "Cileda de Queiroz e Silva Coutinho", "type": "pessoa", "ctx": "Brasil", "city": null, "year_start": null, "note": "PUC-SP; doutorado em Grenoble I; maior orientadora de EE segundo Santos 2015."}
+{"id": "Gilda Lisbôa Guimarães", "type": "pessoa", "ctx": "Brasil", "city": null, "year_start": null, "note": ""}
+{"id": "Irene Mauricio Cazorla", "type": "pessoa", "ctx": "Brasil", "city": null, "year_start": null, "note": ""}
+{"id": "Ailton Paulo de Oliveira Junior", "type": "pessoa", "ctx": "Brasil", "city": null, "year_start": null, "note": ""}
+{"id": "Mauren Porciúncula", "type": "pessoa", "ctx": "Brasil", "city": null, "year_start": null, "note": "FURG; coordena LeME; autora de capítulo de 2023."}
+{"id": "Lisbeth Kaiserlian Cordani", "type": "pessoa", "ctx": "Brasil", "city": null, "year_start": null, "note": "USP/IME; vice-presidente da IASE."}
+{"id": "Clayde Regina Mendes", "type": "pessoa", "ctx": "Brasil", "city": null, "year_start": null, "note": ""}
+{"id": "Ednei Leite de Araújo", "type": "pessoa", "ctx": "Brasil", "city": null, "year_start": null, "note": ""}
+{"id": "Luciane Mulazani dos Santos", "type": "pessoa", "ctx": "Brasil", "city": null, "year_start": null, "note": ""}
+{"id": "Nílson J. Machado", "type": "pessoa", "ctx": "Brasil", "city": null, "year_start": null, "note": ""}
+{"id": "Márcia Brito", "type": "pessoa", "ctx": "Brasil", "city": null, "year_start": null, "note": ""}
+{"id": "Michel Henry", "type": "pessoa", "ctx": "França", "city": null, "year_start": null, "note": ""}
+{"id": "Iddo Gal", "type": "pessoa", "ctx": "Internacional", "city": null, "year_start": null, "note": ""}
+{"id": "David Vere-Jones", "type": "pessoa", "ctx": "Nova Zelândia", "city": null, "year_start": null, "note": ""}
+{"id": "J. Gani", "type": "pessoa", "ctx": "Internacional", "city": null, "year_start": null, "note": ""}
+{"id": "Maria Gabriella Ottaviani", "type": "pessoa", "ctx": "Internacional", "city": null, "year_start": null, "note": ""}
+{"id": "David Moore", "type": "pessoa", "ctx": "Internacional", "city": null, "year_start": null, "note": ""}
+{"id": "Joan Garfield", "type": "pessoa", "ctx": "EUA", "city": null, "year_start": null, "note": ""}
+{"id": "David Green", "type": "pessoa", "ctx": "Internacional", "city": null, "year_start": null, "note": ""}
+{"id": "Vic Barnett", "type": "pessoa", "ctx": "Internacional", "city": null, "year_start": null, "note": ""}
+{"id": "Robert Hogg", "type": "pessoa", "ctx": "EUA", "city": null, "year_start": null, "note": ""}
+{"id": "Frederick Mosteller", "type": "pessoa", "ctx": "EUA", "city": null, "year_start": null, "note": ""}
+{"id": "S. A. Rice", "type": "pessoa", "ctx": "Internacional", "city": null, "year_start": null, "note": "Presidente do Comitê de Educação do ISI 1948-1954."}
+{"id": "Carol Blumberg", "type": "pessoa", "ctx": "Internacional", "city": null, "year_start": null, "note": ""}
+{"id": "Adriana D'Amelio", "type": "pessoa", "ctx": "Argentina", "city": null, "year_start": null, "note": ""}
