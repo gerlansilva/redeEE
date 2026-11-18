@@ -22,7 +22,7 @@ Rede historiográfica usada no capítulo da tese *Redes que contam histórias da
 | `dados/lotes/` | Saída bruta da extração, por lote |
 | `dados/arestas_para_conferencia.csv` | Todas as arestas, para conferir contra os PDFs |
 | `scripts/` | `consolidar.py`, `gerar_dados_pagina.py` e `build_layouts.py` (dados e posições da página), `figura_estatica.py` (figura do capítulo) |
-| `pagina/` | Página interativa (`index.html`, `rede_data.json`, `layouts.json`) |
+| `index.html`, `rede_data.json`, `layouts.json` | Página interativa (na raiz, para o Cloudflare Pages servir `https://redeee.pages.dev/`) |
 | `figuras/` | Figura estática para o capítulo |
 | `docs/` | Regras de extração e números da rede |
 
@@ -35,11 +35,11 @@ pip install networkx numpy git+https://github.com/gerlansilva/redes
 # 2) figura estática 
 python3 scripts/figura_estatica.py 3 figuras/rede_figura.svg dados/rede.json
 # 3) página interativa
-python3 scripts/gerar_dados_pagina.py dados/rede.json pagina/rede_data.json
-cd pagina && python3 ../scripts/build_layouts.py   # grava layouts.json (~40 s)
+python3 scripts/gerar_dados_pagina.py dados/rede.json rede_data.json
+python3 scripts/build_layouts.py   # grava layouts.json (~40 s) na raiz
 ```
 
-Para abrir a página localmente: `cd pagina && python3 -m http.server` e acessar `http://localhost:8000`.
+Para abrir a página localmente: `python3 -m http.server` na raiz do repositório e acessar `http://localhost:8000`.
 
 ## Limites (leia antes de citar)
 
